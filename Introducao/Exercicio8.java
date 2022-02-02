@@ -16,6 +16,8 @@ public class Exercicio8 {
 		cr = (cf + (cf * 0.28) + (cf * 0.45));
 		
 		System.out.println("O valor do carro novo é: " + cr);
+		
+		carro.close();
 	}
 
 }

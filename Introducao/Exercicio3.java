@@ -21,6 +21,8 @@ public class Exercicio3 {
 		
 		seg = (seg % 3600)%60;
 		System.out.println("Em segundos: " + seg + " segundos");
+		
+		tempo.close();
 	}
 
 }

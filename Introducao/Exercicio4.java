@@ -29,7 +29,7 @@ public class Exercicio4 {
 		
 				
 	
-		
+		calc.close();
 		
 	}
 }

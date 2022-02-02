@@ -28,7 +28,7 @@ public class Exercicio6 {
 		
 		System.out.println("Distancia entre os pontos é de: " +d);
 		
-		
+		dist.close();
 		
 	}
 }

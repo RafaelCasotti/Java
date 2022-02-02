@@ -36,8 +36,9 @@ public class Exercicio7 {
 		
 		
 		
-		
+		lin.close();
 
 	}
-
+		
 }
+ 		

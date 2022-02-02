@@ -15,9 +15,9 @@ public class Exercicio1FOR {
 		if (x % 11==5) {
 			System.out.println(x);
 			
-			
+			ler.close();
 		}
 		}	
-		ler.close();
+		
 	}
 }

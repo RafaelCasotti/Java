@@ -21,6 +21,6 @@ public class Exercicio1 {
 	
 	System.out.println("A quantidade em dias é: " + n3);
 	
-	
+	x.close();
 }
 }

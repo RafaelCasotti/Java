@@ -21,6 +21,6 @@ public class Exercicio2 {
 		n3 = (dias%365)%30;
 		System.out.println("A sua idade em dias é: " + n3 + " dias");
 		
-	
+		idade.close();
 	}
 }

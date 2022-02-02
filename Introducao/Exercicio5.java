@@ -24,6 +24,6 @@ public class Exercicio5 {
 		
 		System.out.println("A média das notas são: " + media);
 		
-		
+		nota.close();
 	}
 }
