@@ -4,7 +4,7 @@ public class Animal {
 
 	private String nome;
 	private int idade;
-	private boolean emitirSom;
+	private String emitirSom;
 	
 	
 	public String getNome() {
@@ -13,18 +13,20 @@ public class Animal {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	
 	public int getIdade() {
 		return idade;
 	}
+	
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	public boolean isEmitirSom() {
-		return emitirSom;
+	
+	public void emitirSom()
+	{
+	System.out.println("Som padrão");
 	}
-	public void setEmitirSom(boolean emitirSom) {
-		this.emitirSom = emitirSom;
-	}
+	
 	
 	
 }

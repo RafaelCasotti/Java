@@ -12,6 +12,12 @@ public class Cavalo extends Animal {
 		this.brincarCorrer = brincarCorrer;
 	}
 	
+	@Override
+	public void emitirSom()
+	{
+		
+		System.out.println("SMURFSMURF");
+	}
 	
 	
 
